@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tivia Test</string>
+
+    <string name="action_qrcode">QRCode</string>
+
+    <string name="msg_dialog_titulo">Confirmação</string>
+    <string name="msg_dialog_sim">Sim</string>
+    <string name="msg_dialog_nao">Não</string>
+
+    <string name="msg_gps_inativo">O GPS precisa estar ativo para recuperar coordenadas com leitura de QRCode.\nDeseja abrir as configurações para habilitá-lo?</string>
+    <string name="msg_gps_inicializando">Aguarde alguns instantes para inicialização do GPS, por favor</string>
+
+    <string name="msg_qr_target_nao_suportado">O destino deste QRCode não é suportado.</string>
+    <string name="msg_qr_target_erro">Isto é embaraçoso, mas não foi possível carregar o link %s</string>
+    <string name="msg_qr_target_imagem_nao_suportado">Manupilação de imagens não suportada nesta versão.</string>
+</resources>

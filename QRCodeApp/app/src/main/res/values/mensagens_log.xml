@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mensagens de LOG -->
+	<string name="log_create_start">Inicio do processamento de scripts para criação do BD</string>
+	<string name="log_create_end">Fim do processamento de scripts para criação do BD</string>
+	<string name="log_update_warn">Atualizando a versão do BD. Todos os registros serão deletados.</string>
+
+</resources>

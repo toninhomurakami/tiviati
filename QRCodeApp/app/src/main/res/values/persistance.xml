@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="db_name">qrcode_db</string>
+    <string name="db_md_version">1</string>
+    
+    
+    <!-- Scripts para criacao do BD -->
+    <string-array name="db_scripts_create">
+        <item>
+            CREATE TABLE qr_code (
+              qrcode        text    not null primary key,
+              latitude      real    not null,
+              longitude     real    not null,
+              register_date integer not null
+            );
+        </item>
+    </string-array>
+    
+    <!-- Scripts para remocao do BD -->
+    <string-array name="db_scripts_drop">
+        <item>drop table qr_code;</item>
+    </string-array>
+    
+</resources>
